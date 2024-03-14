@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url('https://example.com/background.jpg');
+        background-size: cover;
+        background-position: center;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .login-container {
+        background: rgba(255, 255, 255, 0.7);
+        padding: 40px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .login-container h2 {
+        margin-bottom: 20px;
+    }
+
+    .login-container input[type="text"], 
+    .login-container input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: 1px solid #ddd;
+    }
+
+    .login-container input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 5px;
+        border: none;
+        background: #4CAF50;
+        color: white;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form>
+            <input type="text" placeholder="Username" required><br>
+            <input type="password" placeholder="Password" required><br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>
